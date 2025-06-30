@@ -1,0 +1,41 @@
+{
+    "SQUADNAME": "",
+    "MOVE": "",
+    "TOUGHNESS": "",
+    "SAVE": "",
+    "WOUNDS": "",
+    "LEADERSHIP": "",
+    "OBJECTIVECONTROL": "",
+    "RANGEDWEAPONS": {
+        "WEAPONNAME": "",
+        "RANGE": "",
+        "ATTACKS": "",
+        "SKILL": "",
+        "STRENGTH": "",
+        "ARMORPIERCING": "",
+        "DAMAGE": ""
+    },
+    "MELEEWEAPONS": {
+        "WEAPONNAME": "",
+        "RANGE": "",
+        "ATTACKS": "",
+        "SKILL": "",
+        "STRENGTH": "",
+        "ARMORPIERCING": "",
+        "DAMAGE": ""
+    },
+    "FACTION": "",
+    "ABILITIES": {
+        "ABILITYNAME": "",
+        "ABILITYTEXT": ""
+    },
+    "WARGEAR": {
+        "WARGEAROPTION": []
+    },
+    "UNITCOMPOSITION": {
+        "COMPOSITION": []
+    },
+    "EQUIPMENT": "",
+    "KEYWORDS": [],
+    "FACTIONKEYWORD": ""
+}

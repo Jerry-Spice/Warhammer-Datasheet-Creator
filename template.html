@@ -1,0 +1,203 @@
+<html>
+    <head>
+        <style>
+            body {
+                padding: 0px;
+                margin: 0px;
+                
+            }
+
+            h1 {
+                font-size: 3vw;
+                white-space: nowrap;
+            }
+
+            h2 {
+                font-size: 1.5vw;
+                white-space: nowrap;
+            }
+
+            td {
+                padding: 5px;
+            }
+
+            header {
+                width: 100%;
+                background: repeating-linear-gradient(
+                    45deg,
+                    #FFFFFF,
+                    #FFFFFF 10px,
+                    #999999 10px,
+                    #999999 20px
+
+                );
+                color: black;
+                padding: 10px 20px;
+                border-bottom: 5px solid black;
+            }
+
+            .stat_table {
+                color: black;
+                width: fit-content;
+            }
+
+            .stat_table tr td {
+                padding: 5px;
+            }
+            
+            .stat_label {
+                color: black;
+                text-align: center;
+                font-weight: bold;
+                white-space: nowrap;
+                text-align: center;
+            }
+
+            .stat_value {
+                background-color: white;
+                color: black;
+                width: 20px;
+                height: 20px;
+                border: 2px solid black;
+                border-radius: 10px 0px 10px;
+                padding: 5px;
+                text-align: center;
+            }
+
+            .mainarea {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin: 20px;
+                padding: 20px;
+                border-left: 5px solid black;
+                border-right: 5px solid black;
+                border-bottom: 5px solid black;
+            }
+
+            .headerrow td {
+                margin-bottom: 0px;
+                padding-bottom: 0px;
+                border-bottom: solid 5px black;
+            }
+
+            .centered {
+                text-align: center;
+            }
+
+            .abilites {
+                margin: 5px;
+                padding-left: 25px;
+                border-left:  solid 5px black;
+            }
+
+            .optionsarea {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin: 20px;
+                padding: 20px;
+                border-left: 5px solid black;
+                border-right: 5px solid black;
+                border-bottom: 5px solid black;
+            }
+
+            .unit_composition {
+                margin: 5px;
+                padding-left: 25px;
+                border-left: 5px solid black;
+            }
+
+            footer {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1><SQUADNAME></h1>
+            <table class="stat_table">
+                <tr>
+                    <td class="stat_label">Move</td>
+                    <td class="stat_label">Toughess</td>
+                    <td class="stat_label">Save</td>
+                    <td class="stat_label">Wounds</td>
+                    <td class="stat_label">Leadership</td>
+                    <td class="stat_label">Objective Control</td>
+                </tr>
+                <tr>
+                    <td class="stat_value"><MOVE></td>
+                    <td class="stat_value"><TOUGHNESS></td>
+                    <td class="stat_value"><SAVE></td>
+                    <td class="stat_value"><WOUNDS></td>
+                    <td class="stat_value"><LEADERSHIP></td>
+                    <td class="stat_value"><OBJECTIVECONTROL></td>
+                </tr>
+            </table>
+        </header>
+        <div class="mainarea">
+            <div class="weapons">
+                <div class="ranged_weapons">
+                    <table>
+                        <tr class="headerrow">
+                            <td><h2>Ranged Weapons</h2></td>
+                            <td><h2>Range</h2></td>
+                            <td><h2>Attacks</h2></td>
+                            <td><h2>Ballistic Skill</h2></td>
+                            <td><h2>Strength</h2></td>
+                            <td><h2>Armor Piercing</h2></td>
+                            <td><h2>Damage</h2></td>
+                        </tr>
+                        <RANGEDWEAPONS>
+                    </table>
+                </div>
+                <div class="melee_weapons">
+                    <table>
+                        <tr class="headerrow">
+                            <td><h2>Melee Weapons</h2></td>
+                            <td><h2>Range</h2></td>
+                            <td><h2>Attacks</h2></td>
+                            <td><h2>Weapon Skill</h2></td>
+                            <td><h2>Strength</h2></td>
+                            <td><h2>Armor Piercing</h2></td>
+                            <td><h2>Damage</h2></td>
+                        </tr>
+                        <MELEEWEAPONS>
+                    </table>
+                </div>
+            </div>
+            <div class="abilites">
+                <h2>Abilities</h2>
+                <p>FACTION: <span class="faction"><FACTION></span></p>
+                <div class="ability">
+                    <ABILITIES>
+                </div>
+            </div>
+        </div>
+        <div class="optionsarea">
+            <div class="wargear">
+                    <h2>Wargear Options</h2>
+                    <ul>
+                        <WARGEAR>
+                    </ul>
+            </div>
+            <div class="unit_composition">
+                    <h2>Unit Composition</h2>
+                    <ul>
+                        <UNITCOMPOSITION>
+                    </ul>
+                    <p><EQUIPMENT></p>
+            </div>
+        </div>
+        <footer>
+            <div class="keywords">
+                <p>KEYWORDS: <span class="keyword"><KEYWORDS></span></p>
+            </div>
+            <div class="faction_keywords">
+                <p>FACTION KEYWORDS: <span class="faction_keyword"><FACTIONKEYWORD></span></p>
+            </div>
+        </footer>
+    </body>
+</html>

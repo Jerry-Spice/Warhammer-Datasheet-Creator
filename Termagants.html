@@ -1,0 +1,235 @@
+<html>
+    <head>
+        <style>
+            body {
+                padding: 0px;
+                margin: 0px;
+                
+            }
+
+            h1 {
+                font-size: 3vw;
+                white-space: nowrap;
+            }
+
+            h2 {
+                font-size: 1.5vw;
+                white-space: nowrap;
+            }
+
+            td {
+                padding: 5px;
+            }
+
+            header {
+                width: 100%;
+                background: repeating-linear-gradient(
+                    45deg,
+                    #FFFFFF,
+                    #FFFFFF 10px,
+                    #999999 10px,
+                    #999999 20px
+
+                );
+                color: black;
+                padding: 10px 20px;
+                border-bottom: 5px solid black;
+            }
+
+            .stat_table {
+                color: black;
+                width: fit-content;
+            }
+
+            .stat_table tr td {
+                padding: 5px;
+            }
+            
+            .stat_label {
+                color: black;
+                text-align: center;
+                font-weight: bold;
+                white-space: nowrap;
+                text-align: center;
+            }
+
+            .stat_value {
+                background-color: white;
+                color: black;
+                width: 20px;
+                height: 20px;
+                border: 2px solid black;
+                border-radius: 10px 0px 10px;
+                padding: 5px;
+                text-align: center;
+            }
+
+            .mainarea {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin: 20px;
+                padding: 20px;
+                border-left: 5px solid black;
+                border-right: 5px solid black;
+                border-bottom: 5px solid black;
+            }
+
+            .headerrow td {
+                margin-bottom: 0px;
+                padding-bottom: 0px;
+                border-bottom: solid 5px black;
+            }
+
+            .centered {
+                text-align: center;
+            }
+
+            .abilites {
+                margin: 5px;
+                padding-left: 25px;
+                border-left:  solid 5px black;
+            }
+
+            .optionsarea {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin: 20px;
+                padding: 20px;
+                border-left: 5px solid black;
+                border-right: 5px solid black;
+                border-bottom: 5px solid black;
+            }
+
+            .unit_composition {
+                margin: 5px;
+                padding-left: 25px;
+                border-left: 5px solid black;
+            }
+
+            footer {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Termagants</h1>
+            <table class="stat_table">
+                <tr>
+                    <td class="stat_label">Move</td>
+                    <td class="stat_label">Toughess</td>
+                    <td class="stat_label">Save</td>
+                    <td class="stat_label">Wounds</td>
+                    <td class="stat_label">Leadership</td>
+                    <td class="stat_label">Objective Control</td>
+                </tr>
+                <tr>
+                    <td class="stat_value">6"</td>
+                    <td class="stat_value">3</td>
+                    <td class="stat_value">5+</td>
+                    <td class="stat_value">1</td>
+                    <td class="stat_value">8+</td>
+                    <td class="stat_value">2</td>
+                </tr>
+            </table>
+        </header>
+        <div class="mainarea">
+            <div class="weapons">
+                <div class="ranged_weapons">
+                    <table>
+                        <tr class="headerrow">
+                            <td><h2>Ranged Weapons</h2></td>
+                            <td><h2>Range</h2></td>
+                            <td><h2>Attacks</h2></td>
+                            <td><h2>Ballistic Skill</h2></td>
+                            <td><h2>Strength</h2></td>
+                            <td><h2>Armor Piercing</h2></td>
+                            <td><h2>Damage</h2></td>
+                        </tr>
+                        <tr>
+    <td>Fleshborer [Assault]</td>
+    <td class="centered">18"</td>
+    <td class="centered">1</td>
+    <td class="centered">4+</td>
+    <td class="centered">5</td>
+    <td class="centered">0</td>
+    <td class="centered">1</td>
+</tr><tr>
+    <td>Termagant Spinefists [Assault, Pistol, Twin-Linked]</td>
+    <td class="centered">12"</td>
+    <td class="centered">2</td>
+    <td class="centered">4+</td>
+    <td class="centered">3</td>
+    <td class="centered">0</td>
+    <td class="centered">1</td>
+</tr><tr>
+    <td>Termagant Devourer</td>
+    <td class="centered">18"</td>
+    <td class="centered">2</td>
+    <td class="centered">4+</td>
+    <td class="centered">4</td>
+    <td class="centered">0</td>
+    <td class="centered">1</td>
+</tr>
+                    </table>
+                </div>
+                <div class="melee_weapons">
+                    <table>
+                        <tr class="headerrow">
+                            <td><h2>Melee Weapons</h2></td>
+                            <td><h2>Range</h2></td>
+                            <td><h2>Attacks</h2></td>
+                            <td><h2>Weapon Skill</h2></td>
+                            <td><h2>Strength</h2></td>
+                            <td><h2>Armor Piercing</h2></td>
+                            <td><h2>Damage</h2></td>
+                        </tr>
+                        <tr>
+    <td>Xenos Claws and Teeth</td>
+    <td class="centered">Melee</td>
+    <td class="centered">1</td>
+    <td class="centered">4+</td>
+    <td class="centered">3</td>
+    <td class="centered">0</td>
+    <td class="centered">1</td>
+</tr>
+                    </table>
+                </div>
+            </div>
+            <div class="abilites">
+                <h2>Abilities</h2>
+                <p>FACTION: <span class="faction">Synapse</span></p>
+                <div class="ability">
+                    <p><span>Skulking Horrors:</span>: <span>Once per turn when an enemy unit ends a Normal, Advance or Fall Back move within 9" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 1D6.</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="optionsarea">
+            <div class="wargear">
+                    <h2>Wargear Options</h2>
+                    <ul>
+                        <li><p>All models in this unit can each have their fleshborer replaced with 1 Termagant Devourer.</p></li><li><p>All models in this unit can each have their fleshborer replaced with 1 Termagant Spinefists.</p></li>
+                    </ul>
+            </div>
+            <div class="unit_composition">
+                    <h2>Unit Composition</h2>
+                    <ul>
+                        <li><p>All models in this unit can each have their fleshborer replaced with 1 Termagant Spinefists.</p></li>
+                    </ul>
+                    <p>Every model is equipped with: Fleshborer, Xenos Claws and Teeth</p>
+            </div>
+        </div>
+        <footer>
+            <div class="keywords">
+                <p>KEYWORDS: <span class="keyword">Infantry, Batteline, Great Devourer, Endless Multitude, Termigants</span></p>
+            </div>
+            <div class="faction_keywords">
+                <p>FACTION KEYWORDS: <span class="faction_keyword">Tyranids</span></p>
+            </div>
+        </footer>
+    </body>
+</html>

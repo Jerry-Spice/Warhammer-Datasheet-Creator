@@ -1,0 +1,76 @@
+{
+    "SQUADNAME": "Termagants",
+    "MOVE": "6\"",
+    "TOUGHNESS": "3",
+    "SAVE": "5+",
+    "WOUNDS": "1",
+    "LEADERSHIP": "8+",
+    "OBJECTIVECONTROL": "2",
+    "RANGEDWEAPONS": [
+        {
+        "WEAPONNAME": "Fleshborer [Assault]",
+        "RANGE": "18\"",
+        "ATTACKS": "1",
+        "SKILL": "4+",
+        "STRENGTH": "5",
+        "ARMORPIERCING": "0",
+        "DAMAGE": "1"
+        },
+        {
+        "WEAPONNAME": "Termagant Spinefists [Assault, Pistol, Twin-Linked]",
+        "RANGE": "12\"",
+        "ATTACKS": "2",
+        "SKILL": "4+",
+        "STRENGTH": "3",
+        "ARMORPIERCING": "0",
+        "DAMAGE": "1"
+        },
+        {
+        "WEAPONNAME": "Termagant Devourer",
+        "RANGE": "18\"",
+        "ATTACKS": "2",
+        "SKILL": "4+",
+        "STRENGTH": "4",
+        "ARMORPIERCING": "0",
+        "DAMAGE": "1"
+        }
+    ],
+    "MELEEWEAPONS": [
+        {
+        "WEAPONNAME": "Xenos Claws and Teeth",
+        "RANGE": "Melee",
+        "ATTACKS": "1",
+        "SKILL": "4+",
+        "STRENGTH": "3",
+        "ARMORPIERCING": "0",
+        "DAMAGE": "1"
+        }
+    ],
+    "FACTION": "Synapse",
+    "ABILITIES": [
+        {
+        "ABILITYNAME": "Skulking Horrors:",
+        "ABILITYTEXT": "Once per turn when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 1D6."
+        }
+    ],
+    "WARGEAR": {
+        "WARGEAROPTION": [
+            "All models in this unit can each have their fleshborer replaced with 1 Termagant Devourer.",
+            "All models in this unit can each have their fleshborer replaced with 1 Termagant Spinefists."
+        ]
+    },
+    "UNITCOMPOSITION": {
+        "COMPOSITION": [
+            "10-20 Termagants"
+        ]
+    },
+    "EQUIPMENT": "Every model is equipped with: Fleshborer, Xenos Claws and Teeth",
+    "KEYWORDS": [
+        "Infantry",
+        "Batteline",
+        "Great Devourer",
+        "Endless Multitude",
+        "Termigants"
+    ],
+    "FACTIONKEYWORD": "Tyranids"
+}
